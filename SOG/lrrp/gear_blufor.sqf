@@ -189,11 +189,11 @@ COPY_ADDONS(lamg,lrif);
 // LRRP crate loadout
 CREATE_CRATE(lrrp);
 
-ADD_RIFLE_TO_CRATE(lrrp,rif,4);
-ADD_PISTOL_TO_CRATE(lrrp,rif,4);
+ADD_RIFLE_TO_CRATE(lrrp,lrif,4);
+ADD_PISTOL_TO_CRATE(lrrp,lrif,4);
 
-ADD_PISTOL_AMMO_TO_CRATE(lrrp,rif,12);
-ADD_RIFLE_AMMO_TO_CRATE(lrrp,rif,60);
+ADD_PISTOL_AMMO_TO_CRATE(lrrp,lrif,12);
+ADD_RIFLE_AMMO_TO_CRATE(lrrp,lrif,60);
 ADD_RIFLE_AMMO_TO_CRATE(lrrp,lmg,15);
 ADD_RIFLE_AMMO_TO_CRATE(lrrp,crew,4);
 
