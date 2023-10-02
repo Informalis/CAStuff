@@ -177,7 +177,7 @@ CREATE_LOADOUT(lgren,_baseLoadout);
 COPY_ADDONS(lgren,lrif);
 
 // LRRP MG
-_baseLoadout = [[["vn_m60_shorty","","","",["vn_m60_100_mag",100],[],""],[],["vn_mx991_m1911","","","",["vn_m1911_mag",7],[],""],["vn_b_uniform_macv_01_15",[["ACE_Canteen",1],["ACE_MapTools",1],["vn_m1911_mag",2,7],["vn_m67_grenade_mag",2,1],["vn_m18_purple_mag",1,1],["vn_m18_red_mag",1,1],["vn_m18_white_mag",1,1],["vn_m18_yellow_mag",1,1]]],["vn_b_vest_sas_03",[["vn_m60_100_mag",3,100]]],["vn_b_pack_trp_02",[["ACE_bloodIV_250",1],["ACE_fieldDressing",5],["ACE_elasticBandage",2],["ACE_morphine",2],["ACE_personalAidKit",1],["ACE_epinephrine",1],["ACE_Canteen",1],["ACE_quikclot",5],["ACE_EntrenchingTool",1],["ACE_packingBandage",2],["ACE_SpareBarrel",1,1],["vn_m60_100_mag",4,100]]],"vn_b_helmet_m1_07_01","",[],["vn_b_item_map","","","vn_b_item_compass","vn_b_item_watch",""]],[]];
+_baseLoadout = [[["vn_m60","","","",["vn_m60_100_mag",100],[],""],[],["vn_mx991_m1911","","","",["vn_m1911_mag",7],[],""],["vn_b_uniform_macv_01_15",[["ACE_Canteen",1],["ACE_MapTools",1],["vn_m1911_mag",2,7],["vn_m67_grenade_mag",2,1],["vn_m18_purple_mag",1,1],["vn_m18_red_mag",1,1],["vn_m18_white_mag",1,1],["vn_m18_yellow_mag",1,1]]],["vn_b_vest_sas_03",[["vn_m60_100_mag",3,100]]],["vn_b_pack_trp_02",[["ACE_bloodIV_250",1],["ACE_fieldDressing",5],["ACE_elasticBandage",2],["ACE_morphine",2],["ACE_personalAidKit",1],["ACE_epinephrine",1],["ACE_Canteen",1],["ACE_quikclot",5],["ACE_EntrenchingTool",1],["ACE_packingBandage",2],["ACE_SpareBarrel",1,1],["vn_m60_100_mag",4,100]]],"vn_b_helmet_m1_07_01","",[],["vn_b_item_map","","","vn_b_item_compass","vn_b_item_watch",""]],[]];
 CREATE_LOADOUT(lmg,_baseLoadout);
 COPY_ADDONS(lmg,lrif);
 
