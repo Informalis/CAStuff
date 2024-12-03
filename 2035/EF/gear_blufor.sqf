@@ -107,7 +107,7 @@ BEGIN_LOADOUTS;
 
 // Rifleman Loadout
 
-_baseLoadout = [[["ef_arifle_mxar","ef_snds_mxar_sand","EF_acc_pointer_IR_coy","ef_optic_microsight_sand",["30Rnd_65x39_caseless_mag",30],[],""],[],["ef_hgun_P07_coy","","","",["16Rnd_9x21_Mag",17],[],""],["EF_U_B_MarineCombatUniform_Des_1",[["ACE_morphine",1],["ACE_IR_Strobe_Item",1],["ACE_Canteen",1],["16Rnd_9x21_Mag",2,17],["ACE_painkillers",1,10]]],["EF_V_AAV_Rifleman_Coy",[["MiniGrenade",2,1],["SmokeShell",1,1],["SmokeShellPurple",1,1],["30Rnd_65x39_caseless_mag",12,30]]],["EF_B_AssaultPack_coy",[["ACE_fieldDressing",10],["ACE_quikclot",6],["ACE_packingBandage",4],["ACE_bloodIV_500",1],["ACE_epinephrine",1],["ACE_tourniquet",4],["ACE_splint",2],["ACE_adenosine",1],["30Rnd_65x39_caseless_mag",2,30]]],"EF_H_MCH_Basic","",[],["ItemMap","ItemGPS","","ItemCompass","ItemWatch","EF_LPNVG_T_Tan"]],[]];
+_baseLoadout = [[["ef_arifle_mxar","ef_snds_mxar_sand","EF_acc_pointer_IR_coy","ef_optic_microsight_sand",["30Rnd_65x39_caseless_mag_Tracer",30],[],""],[],["ef_hgun_P07_coy","","","",["16Rnd_9x21_Mag",17],[],""],["EF_U_B_MarineCombatUniform_Des_1",[["ACE_morphine",1],["ACE_IR_Strobe_Item",1],["ACE_Canteen",1],["16Rnd_9x21_Mag",2,17],["ACE_painkillers",1,10]]],["EF_V_AAV_Rifleman_Coy",[["MiniGrenade",2,1],["SmokeShell",1,1],["SmokeShellPurple",1,1],["30Rnd_65x39_caseless_mag_Tracer",12,30]]],["EF_B_AssaultPack_coy",[["ACE_fieldDressing",10],["ACE_quikclot",6],["ACE_packingBandage",4],["ACE_bloodIV_500",1],["ACE_epinephrine",1],["ACE_tourniquet",4],["ACE_splint",2],["ACE_adenosine",1],["30Rnd_65x39_caseless_mag_Tracer",2,30]]],"EF_H_MCH_Basic","",[],["ItemMap","ItemGPS","","ItemCompass","ItemWatch","EF_LPNVG_T_Tan"]],[]];
 
 CREATE_LOADOUT(rif,_baseLoadout);   // Riflemen will now have the loadout from the line above.
 
@@ -132,13 +132,13 @@ ADD_HAT(rif,"EF_H_MCH");
 
 // Commander Loadout
 
-_baseLoadout = [[["ef_arifle_mxar","ef_snds_mxar_sand","EF_acc_pointer_IR_coy","ef_optic_microsight_sand",["30Rnd_65x39_caseless_mag",30],[],""],[],["ef_hgun_P07_coy","","","",["16Rnd_9x21_Mag",17],[],""],["EF_U_B_MarineCombatUniform_Des_1",[["ACE_morphine",1],["ACE_IR_Strobe_Item",1],["ACE_Canteen",1],["16Rnd_9x21_Mag",2,17],["ACE_painkillers",1,10]]],["EF_V_AAV_TL_Coy",[["MiniGrenade",2,1],["SmokeShell",1,1],["SmokeShellPurple",1,1],["30Rnd_65x39_caseless_mag",5,30]]],["EF_B_AssaultPack_coy",[["ACE_fieldDressing",10],["ACE_quikclot",6],["ACE_packingBandage",4],["ACE_bloodIV_500",1],["ACE_epinephrine",1],["ACE_tourniquet",4],["ACE_splint",2],["ACE_adenosine",1]]],"EF_H_HelmetB_light_desert_slick","",["Laserdesignator","","","",["Laserbatteries",1],[],""],["ItemMap","ItemGPS","","ItemCompass","ItemWatch","EF_LPNVG_T_Tan"]],[]];
+_baseLoadout = [[["ef_arifle_mxar","ef_snds_mxar_sand","EF_acc_pointer_IR_coy","ef_optic_microsight_sand",["30Rnd_65x39_caseless_mag_Tracer",30],[],""],[],["ef_hgun_P07_coy","","","",["16Rnd_9x21_Mag",17],[],""],["EF_U_B_MarineCombatUniform_Des_1",[["ACE_morphine",1],["ACE_IR_Strobe_Item",1],["ACE_Canteen",1],["16Rnd_9x21_Mag",2,17],["ACE_painkillers",1,10]]],["EF_V_AAV_TL_Coy",[["MiniGrenade",2,1],["SmokeShell",1,1],["SmokeShellPurple",1,1],["30Rnd_65x39_caseless_mag_Tracer",5,30]]],["EF_B_AssaultPack_coy",[["ACE_fieldDressing",10],["ACE_quikclot",6],["ACE_packingBandage",4],["ACE_bloodIV_500",1],["ACE_epinephrine",1],["ACE_tourniquet",4],["ACE_splint",2],["ACE_adenosine",1]]],"EF_H_HelmetB_light_desert_slick","",["Laserdesignator","","","",["Laserbatteries",1],[],""],["ItemMap","ItemGPS","","ItemCompass","ItemWatch","EF_LPNVG_T_Tan"]],[]];
 
 CREATE_LOADOUT(co,_baseLoadout);
 
 // Fireteam lead Loadout
 
-_baseLoadout = [[["ef_arifle_mxar_gl","ef_snds_mxar_sand","EF_acc_pointer_IR_coy","ef_optic_microsight_sand",["30Rnd_65x39_caseless_mag",30],["3Rnd_HE_Grenade_shell",3],""],[],["ef_hgun_P07_coy","","","",["16Rnd_9x21_Mag",17],[],""],["EF_U_B_MarineCombatUniform_Des_1",[["ACE_morphine",1],["ACE_IR_Strobe_Item",1],["ACE_Canteen",1],["16Rnd_9x21_Mag",2,17],["ACE_painkillers",1,10]]],["EF_V_AAV_TL_Coy",[["MiniGrenade",2,1],["SmokeShell",1,1],["SmokeShellPurple",1,1],["30Rnd_65x39_caseless_mag",12,30]]],["EF_B_AssaultPack_coy",[["ACE_fieldDressing",10],["ACE_quikclot",6],["ACE_packingBandage",4],["ACE_bloodIV_500",1],["ACE_epinephrine",1],["ACE_tourniquet",4],["ACE_splint",2],["ACE_adenosine",1],["30Rnd_65x39_caseless_mag",2,30],["3Rnd_HE_Grenade_shell",5,3],["3Rnd_Smoke_Grenade_shell",2,3],["3Rnd_SmokePurple_Grenade_shell",2,3]]],"EF_H_MCH_Basic","",["Laserdesignator","","","",["Laserbatteries",1],[],""],["ItemMap","ItemGPS","","ItemCompass","ItemWatch","EF_LPNVG_T_Tan"]],[]];
+_baseLoadout = [[["ef_arifle_mxar_gl","ef_snds_mxar_sand","EF_acc_pointer_IR_coy","ef_optic_microsight_sand",["30Rnd_65x39_caseless_mag_Tracer",30],["3Rnd_HE_Grenade_shell",3],""],[],["ef_hgun_P07_coy","","","",["16Rnd_9x21_Mag",17],[],""],["EF_U_B_MarineCombatUniform_Des_1",[["ACE_morphine",1],["ACE_IR_Strobe_Item",1],["ACE_Canteen",1],["16Rnd_9x21_Mag",2,17],["ACE_painkillers",1,10]]],["EF_V_AAV_TL_Coy",[["MiniGrenade",2,1],["SmokeShell",1,1],["SmokeShellPurple",1,1],["30Rnd_65x39_caseless_mag_Tracer",12,30]]],["EF_B_AssaultPack_coy",[["ACE_fieldDressing",10],["ACE_quikclot",6],["ACE_packingBandage",4],["ACE_bloodIV_500",1],["ACE_epinephrine",1],["ACE_tourniquet",4],["ACE_splint",2],["ACE_adenosine",1],["30Rnd_65x39_caseless_mag_Tracer",2,30],["3Rnd_HE_Grenade_shell",5,3],["3Rnd_Smoke_Grenade_shell",2,3],["3Rnd_SmokePurple_Grenade_shell",2,3]]],"EF_H_MCH_Basic","",["Laserdesignator","","","",["Laserbatteries",1],[],""],["ItemMap","ItemGPS","","ItemCompass","ItemWatch","EF_LPNVG_T_Tan"]],[]];
 
 CREATE_LOADOUT(ftl,_baseLoadout);
 COPY_ADDONS(ftl,rif);   // FTLs will now get the random uniforms and hats from the Rifleman class.
@@ -151,7 +151,7 @@ COPY_LOADOUT(sl,ftl);   // SLs will be identical to FTLs.  Because FTLs get the 
 
 // Medic Loadout
 
-_baseLoadout = [[["ef_arifle_mxar","ef_snds_mxar_sand","","ef_optic_microsight_sand",["30Rnd_65x39_caseless_mag",30],[],""],[],["ef_hgun_P07_coy","","","",["16Rnd_9x21_Mag",17],[],""],["EF_U_B_MarineCombatUniform_Des_1",[["ACE_morphine",1],["ACE_IR_Strobe_Item",1],["ACE_Canteen",1],["16Rnd_9x21_Mag",2,17],["ACE_painkillers",1,10]]],["EF_V_AAV_Sailor_Coy",[["MiniGrenade",2,1],["SmokeShell",1,1],["SmokeShellPurple",1,1],["30Rnd_65x39_caseless_mag",12,30]]],["EF_B_Carryall_coy",[["ACE_fieldDressing",20],["ACE_quikclot",16],["ACE_packingBandage",16],["ACE_bloodIV_500",4],["ACE_epinephrine",4],["ACE_tourniquet",12],["ACE_splint",12],["ACE_adenosine",2],["ACE_elasticBandage",20],["ACE_morphine",4],["FSGm_ItemMedicBag",1],["ACE_bloodIV_250",8],["ACE_bloodIV",2],["ACE_surgicalKit",1]]],"EF_H_MCH_Basic","",[],["ItemMap","ItemGPS","","ItemCompass","ItemWatch","EF_LPNVG_T_Tan"]],[]];
+_baseLoadout = [[["ef_arifle_mxar","ef_snds_mxar_sand","","ef_optic_microsight_sand",["30Rnd_65x39_caseless_mag_Tracer",30],[],""],[],["ef_hgun_P07_coy","","","",["16Rnd_9x21_Mag",17],[],""],["EF_U_B_MarineCombatUniform_Des_1",[["ACE_morphine",1],["ACE_IR_Strobe_Item",1],["ACE_Canteen",1],["16Rnd_9x21_Mag",2,17],["ACE_painkillers",1,10]]],["EF_V_AAV_Sailor_Coy",[["MiniGrenade",2,1],["SmokeShell",1,1],["SmokeShellPurple",1,1],["30Rnd_65x39_caseless_mag_Tracer",12,30]]],["EF_B_Carryall_coy",[["ACE_fieldDressing",20],["ACE_quikclot",16],["ACE_packingBandage",16],["ACE_bloodIV_500",4],["ACE_epinephrine",4],["ACE_tourniquet",12],["ACE_splint",12],["ACE_adenosine",2],["ACE_elasticBandage",20],["ACE_morphine",4],["FSGm_ItemMedicBag",1],["ACE_bloodIV_250",8],["ACE_bloodIV",2],["ACE_surgicalKit",1]]],"EF_H_MCH_Basic","",[],["ItemMap","ItemGPS","","ItemCompass","ItemWatch","EF_LPNVG_T_Tan"]],[]];
 
 CREATE_LOADOUT(med,_baseLoadout);
 COPY_ADDONS(med,rif);
@@ -159,7 +159,7 @@ COPY_ADDONS(med,rif);
 
 // Combat Lifefacer Loadout
 
-_baseLoadout = [[["ef_arifle_mxar","ef_snds_mxar_sand","EF_acc_pointer_IR_coy","ef_optic_microsight_sand",["30Rnd_65x39_caseless_mag",30],[],""],[],["ef_hgun_P07_coy","","","",["16Rnd_9x21_Mag",17],[],""],["EF_U_B_MarineCombatUniform_Des_1",[["ACE_morphine",1],["ACE_IR_Strobe_Item",1],["ACE_Canteen",1],["16Rnd_9x21_Mag",2,17],["ACE_painkillers",1,10]]],["EF_V_AAV_Rifleman_Coy",[["MiniGrenade",2,1],["SmokeShell",1,1],["SmokeShellPurple",1,1],["30Rnd_65x39_caseless_mag",12,30]]],["EF_B_Carryall_coy",[["ACE_fieldDressing",20],["ACE_quikclot",16],["ACE_packingBandage",16],["ACE_bloodIV_500",1],["ACE_epinephrine",4],["ACE_tourniquet",12],["ACE_splint",12],["ACE_adenosine",2],["ACE_elasticBandage",20],["ACE_morphine",4],["30Rnd_65x39_caseless_mag",2,30]]],"EF_H_MCH_Basic","",[],["ItemMap","ItemGPS","","ItemCompass","ItemWatch","EF_LPNVG_T_Tan"]],[]];
+_baseLoadout = [[["ef_arifle_mxar","ef_snds_mxar_sand","EF_acc_pointer_IR_coy","ef_optic_microsight_sand",["30Rnd_65x39_caseless_mag_Tracer",30],[],""],[],["ef_hgun_P07_coy","","","",["16Rnd_9x21_Mag",17],[],""],["EF_U_B_MarineCombatUniform_Des_1",[["ACE_morphine",1],["ACE_IR_Strobe_Item",1],["ACE_Canteen",1],["16Rnd_9x21_Mag",2,17],["ACE_painkillers",1,10]]],["EF_V_AAV_Rifleman_Coy",[["MiniGrenade",2,1],["SmokeShell",1,1],["SmokeShellPurple",1,1],["30Rnd_65x39_caseless_mag_Tracer",12,30]]],["EF_B_Carryall_coy",[["ACE_fieldDressing",20],["ACE_quikclot",16],["ACE_packingBandage",16],["ACE_bloodIV_500",1],["ACE_epinephrine",4],["ACE_tourniquet",12],["ACE_splint",12],["ACE_adenosine",2],["ACE_elasticBandage",20],["ACE_morphine",4],["30Rnd_65x39_caseless_mag_Tracer",2,30]]],"EF_H_MCH_Basic","",[],["ItemMap","ItemGPS","","ItemCompass","ItemWatch","EF_LPNVG_T_Tan"]],[]];
 
 CREATE_LOADOUT(cls,_baseLoadout);
 COPY_ADDONS(cls,rif);
@@ -175,7 +175,7 @@ COPY_ADDONS(ar,rif);
 
 // Assistant AR Loadout
 
-_baseLoadout = [[["ef_arifle_mxar","ef_snds_mxar_sand","EF_acc_pointer_IR_coy","ef_optic_microsight_sand",["30Rnd_65x39_caseless_mag",30],[],""],[],["ef_hgun_P07_coy","","","",["16Rnd_9x21_Mag",17],[],""],["EF_U_B_MarineCombatUniform_Des_1",[["ACE_morphine",1],["ACE_IR_Strobe_Item",1],["ACE_Canteen",1],["16Rnd_9x21_Mag",2,17],["ACE_painkillers",1,10]]],["EF_V_AAV_Rifleman_Coy",[["MiniGrenade",2,1],["SmokeShell",1,1],["SmokeShellPurple",1,1],["30Rnd_65x39_caseless_mag",12,30]]],["EF_B_Carryall_coy",[["ACE_fieldDressing",10],["ACE_quikclot",6],["ACE_packingBandage",4],["ACE_bloodIV_500",1],["ACE_epinephrine",1],["ACE_tourniquet",4],["ACE_splint",2],["ACE_adenosine",1],["100Rnd_65x39_caseless_mag_Tracer",6,100]]],"EF_H_MCH_Basic","",["Binocular","","","",[],[],""],["ItemMap","ItemGPS","","ItemCompass","ItemWatch","EF_LPNVG_T_Tan"]],[]];
+_baseLoadout = [[["ef_arifle_mxar","ef_snds_mxar_sand","EF_acc_pointer_IR_coy","ef_optic_microsight_sand",["30Rnd_65x39_caseless_mag_Tracer",30],[],""],[],["ef_hgun_P07_coy","","","",["16Rnd_9x21_Mag",17],[],""],["EF_U_B_MarineCombatUniform_Des_1",[["ACE_morphine",1],["ACE_IR_Strobe_Item",1],["ACE_Canteen",1],["16Rnd_9x21_Mag",2,17],["ACE_painkillers",1,10]]],["EF_V_AAV_Rifleman_Coy",[["MiniGrenade",2,1],["SmokeShell",1,1],["SmokeShellPurple",1,1],["30Rnd_65x39_caseless_mag_Tracer",12,30]]],["EF_B_Carryall_coy",[["ACE_fieldDressing",10],["ACE_quikclot",6],["ACE_packingBandage",4],["ACE_bloodIV_500",1],["ACE_epinephrine",1],["ACE_tourniquet",4],["ACE_splint",2],["ACE_adenosine",1],["100Rnd_65x39_caseless_mag_Tracer",6,100]]],"EF_H_MCH_Basic","",["Binocular","","","",[],[],""],["ItemMap","ItemGPS","","ItemCompass","ItemWatch","EF_LPNVG_T_Tan"]],[]];
 
 CREATE_LOADOUT(aar,_baseLoadout);
 COPY_ADDONS(aar,rif);
@@ -183,7 +183,7 @@ COPY_ADDONS(aar,rif);
 
 // Light anti-tank Loadout
 
-_baseLoadout = [[["ef_arifle_mxar","ef_snds_mxar_sand","EF_acc_pointer_IR_coy","ef_optic_microsight_sand",["30Rnd_65x39_caseless_mag",30],[],""],["ACE_launch_NLAW_ready_F","","","",["NLAW_F",1],[],""],["ef_hgun_P07_coy","","","",["16Rnd_9x21_Mag",17],[],""],["EF_U_B_MarineCombatUniform_Des_1",[["ACE_morphine",1],["ACE_IR_Strobe_Item",1],["ACE_Canteen",1],["16Rnd_9x21_Mag",2,17],["ACE_painkillers",1,10]]],["EF_V_AAV_Coy",[["MiniGrenade",2,1],["SmokeShell",1,1],["SmokeShellPurple",1,1],["30Rnd_65x39_caseless_mag",12,30]]],["EF_B_AssaultPack_coy",[["ACE_fieldDressing",10],["ACE_quikclot",6],["ACE_packingBandage",4],["ACE_bloodIV_500",1],["ACE_epinephrine",1],["ACE_tourniquet",4],["ACE_splint",2],["ACE_adenosine",1],["30Rnd_65x39_caseless_mag",2,30]]],"EF_H_MCH_Basic","",[],["ItemMap","ItemGPS","","ItemCompass","ItemWatch","EF_LPNVG_T_Tan"]],[]];
+_baseLoadout = [[["ef_arifle_mxar","ef_snds_mxar_sand","EF_acc_pointer_IR_coy","ef_optic_microsight_sand",["30Rnd_65x39_caseless_mag_Tracer",30],[],""],["launch_MRAWS_sand_F","","","",["MRAWS_HEAT55_F",1],[],""],["ef_hgun_P07_coy","","","",["16Rnd_9x21_Mag",17],[],""],["EF_U_B_MarineCombatUniform_Des_1",[["ACE_morphine",1],["ACE_IR_Strobe_Item",1],["ACE_Canteen",1],["16Rnd_9x21_Mag",2,17],["ACE_painkillers",1,10]]],["EF_V_AAV_Coy",[["MiniGrenade",2,1],["SmokeShell",1,1],["SmokeShellPurple",1,1],["30Rnd_65x39_caseless_mag_Tracer",12,30]]],["EF_B_AssaultPack_coy",[["ACE_fieldDressing",10],["ACE_quikclot",6],["ACE_packingBandage",4],["ACE_bloodIV_500",1],["ACE_epinephrine",1],["ACE_tourniquet",4],["ACE_splint",2],["ACE_adenosine",1],["MRAWS_HEAT55_F",1,1]]],"EF_H_MCH_Basic","",[],["ItemMap","ItemGPS","","ItemCompass","ItemWatch","EF_LPNVG_T_Tan"]],[]];
 
 CREATE_LOADOUT(lat,_baseLoadout);
 COPY_ADDONS(lat,rif);
@@ -191,22 +191,18 @@ COPY_ADDONS(lat,rif);
 
 // Marksman Loadout
 
-_baseLoadout = [[["ef_arifle_mxm_coy","ef_snds_mxar_coy","EF_acc_pointer_IR_coy","ef_optic_mbs_remote_coy",["30Rnd_65x39_caseless_mag",30],[],""],[],["ef_hgun_P07_coy","","","",["16Rnd_9x21_Mag",17],[],""],["EF_U_B_MarineCombatUniform_Des_1",[["ACE_morphine",1],["ACE_IR_Strobe_Item",1],["ACE_Canteen",1],["16Rnd_9x21_Mag",2,17],["ACE_painkillers",1,10]]],["EF_V_AAV_Scout_Coy",[["MiniGrenade",2,1],["SmokeShell",1,1],["SmokeShellPurple",1,1],["30Rnd_65x39_caseless_mag",12,30]]],["EF_B_AssaultPack_coy",[["ACE_fieldDressing",10],["ACE_quikclot",6],["ACE_packingBandage",4],["ACE_bloodIV_500",1],["ACE_epinephrine",1],["ACE_tourniquet",4],["ACE_splint",2],["ACE_adenosine",1],["30Rnd_65x39_caseless_mag",2,30]]],"EF_H_MCH_Basic","",[],["ItemMap","ItemGPS","","ItemCompass","ItemWatch","EF_LPNVG_T_Tan"]],[]];
+_baseLoadout = [[["ef_arifle_mxar","ef_snds_mxar_sand","EF_acc_pointer_IR_coy","ef_optic_mbs_remote_sand",["30Rnd_65x39_caseless_mag_Tracer",30],[],""],[],["ef_hgun_P07_coy","","","",["16Rnd_9x21_Mag",17],[],""],["EF_U_B_MarineCombatUniform_Des_1",[["ACE_morphine",1],["ACE_IR_Strobe_Item",1],["ACE_Canteen",1],["16Rnd_9x21_Mag",2,17],["ACE_painkillers",1,10]]],["EF_V_AAV_Rifleman_Coy",[["MiniGrenade",2,1],["SmokeShell",1,1],["SmokeShellPurple",1,1],["30Rnd_65x39_caseless_mag_Tracer",12,30]]],["EF_B_AssaultPack_coy",[["ACE_fieldDressing",10],["ACE_quikclot",6],["ACE_packingBandage",4],["ACE_bloodIV_500",1],["ACE_epinephrine",1],["ACE_tourniquet",4],["ACE_splint",2],["ACE_adenosine",1],["30Rnd_65x39_caseless_mag_Tracer",2,30]]],"EF_H_MCH_Basic","",[],["ItemMap","ItemGPS","","ItemCompass","ItemWatch","EF_LPNVG_T_Tan"]],[]];
 
 CREATE_LOADOUT(mk,_baseLoadout);
 COPY_ADDONS(mk,rif);
 
 
-// Sniper Loadout
+// Drone Op Loadout
 
-_baseLoadout = [["srifle_LRR_F","","","optic_LRPS",["7Rnd_408_Mag",7],[],""],[],["hgun_P07_F","","","",["16Rnd_9x21_Mag",17],[],""],["U_B_CombatUniform_mcam",[["ACE_elasticBandage",3],["ACE_morphine",2],["ACE_epinephrine",1],["ACE_packingBandage",3],["ACE_tourniquet",2],["ACE_RangeCard",1],["ACRE_PRC343_ID_3",1],["ACE_Flashlight_XL50",1],["ACE_MapTools",1],["ACE_splint",2],["ACE_Kestrel4500",1],["ACE_microDAGR",1],["16Rnd_9x21_Mag",1,17]]],["V_TacChestrig_oli_F",[["optic_NVS",1],["HandGrenade",2,1],["SmokeShell",4,1],["7Rnd_408_Mag",6,7],["16Rnd_9x21_Mag",1,17]]],["ace_gunbag_Tan",[["30Rnd_65x39_caseless_mag",3,30],["30Rnd_65x39_caseless_mag_Tracer",1,30],["NVGoggles",1]]],"H_Booniehat_mcamo","G_Lowprofile",["ACE_Vector","","","",[],[],""],["ItemMap","","","ItemCompass","ItemWatch",""]];
+_baseLoadout = [[["ef_arifle_mxar","ef_snds_mxar_sand","EF_acc_pointer_IR_coy","ef_optic_microsight_sand",["30Rnd_65x39_caseless_mag_Tracer",30],[],""],[],["ef_hgun_P07_coy","","","",["16Rnd_9x21_Mag",17],[],""],["EF_U_B_MarineCombatUniform_Des_1",[["ACE_morphine",1],["ACE_IR_Strobe_Item",1],["ACE_Canteen",1],["16Rnd_9x21_Mag",2,17],["ACE_painkillers",1,10]]],["EF_V_AAV_Rifleman_Coy",[["ACE_fieldDressing",10],["ACE_packingBandage",4],["ACE_quikclot",6],["ACE_bloodIV_500",1],["ACE_morphine",1],["ACE_tourniquet",4],["ACE_splint",2],["30Rnd_65x39_caseless_mag_Tracer",8,30]]],["EF_B_UAV_01_backpack_coy",[]],"EF_H_MCH_Basic","",[],["ItemMap","B_UavTerminal","","ItemCompass","ItemWatch","EF_LPNVG_T_Tan"]],[]];
+CREATE_LOADOUT(drone,_baseLoadout);
+COPY_ADDONS(drone,rif);
 
-CREATE_LOADOUT(sniper,_baseLoadout);
-
-// This must be a full ACE Arsenal export.  Not just the part with the weapon.
-_gunbagLoadout = [["arifle_MXC_F","muzzle_snds_65_TI_blk_F","acc_pointer_IR","optic_Aco",["30Rnd_65x39_caseless_mag",30],[],""],[],[],[],[],[],"","",[],["","","","","",""]];
-
-PUT_GUN_IN_GUNBAG(sniper,_gunbagLoadout);
 
 
 // Crewman Loadout
@@ -218,7 +214,7 @@ CREATE_LOADOUT(crew,_baseLoadout);
 
 // Engineer/logi Loadout
 
-_baseLoadout = [["arifle_MXC_F","","acc_flashlight","optic_ACO_grn",["30Rnd_65x39_caseless_mag",30],[],""],[],["hgun_P07_F","","","",["16Rnd_9x21_Mag",17],[],""],["U_B_CombatUniform_mcam",[["ACE_elasticBandage",3],["ACE_morphine",2],["ACE_packingBandage",3],["ACE_tourniquet",2],["ACRE_PRC343_ID_3",1],["ACRE_PRC148_ID_1",1],["ACE_splint",2],["ACE_epinephrine",1],["ACRE_PRC152",1]]],["V_PlateCarrier1_rgr",[["ACE_MapTools",1],["ACE_Flashlight_XL50",1],["HandGrenade",2,1],["SmokeShell",2,1],["30Rnd_65x39_caseless_mag_Tracer",4,30],["30Rnd_65x39_caseless_mag",4,30],["SmokeShellBlue",2,1],["SmokeShellRed",2,1],["16Rnd_9x21_Mag",1,17]]],["B_AssaultPack_khk",[["ToolKit",1],["ACE_EntrenchingTool",1]]],"H_HelmetB","G_Tactical_Clear",["Binocular","","","",[],[],""],["ItemMap","ItemGPS","","ItemCompass","ItemWatch","NVGoggles"]];
+_baseLoadout = [["arifle_MXC_F","","acc_flashlight","optic_ACO_grn",["30Rnd_65x39_caseless_mag_Tracer",30],[],""],[],["hgun_P07_F","","","",["16Rnd_9x21_Mag",17],[],""],["U_B_CombatUniform_mcam",[["ACE_elasticBandage",3],["ACE_morphine",2],["ACE_packingBandage",3],["ACE_tourniquet",2],["ACRE_PRC343_ID_3",1],["ACRE_PRC148_ID_1",1],["ACE_splint",2],["ACE_epinephrine",1],["ACRE_PRC152",1]]],["V_PlateCarrier1_rgr",[["ACE_MapTools",1],["ACE_Flashlight_XL50",1],["HandGrenade",2,1],["SmokeShell",2,1],["30Rnd_65x39_caseless_mag_Tracer",4,30],["30Rnd_65x39_caseless_mag_Tracer",4,30],["SmokeShellBlue",2,1],["SmokeShellRed",2,1],["16Rnd_9x21_Mag",1,17]]],["B_AssaultPack_khk",[["ToolKit",1],["ACE_EntrenchingTool",1]]],"H_HelmetB","G_Tactical_Clear",["Binocular","","","",[],[],""],["ItemMap","ItemGPS","","ItemCompass","ItemWatch","NVGoggles"]];
 
 CREATE_LOADOUT(eng,_baseLoadout);
 
@@ -245,19 +241,15 @@ ADD_PISTOL_AMMO_TO_CRATE(small,rif,6); // This crate now contains two of the Rif
 ADD_RIFLE_AMMO_TO_CRATE(small,ar,6);   // These commands copy whatever magazine is loaded into the weapon in ACE Arsenal.
 ADD_RIFLE_AMMO_TO_CRATE(small,crew,2); // So if nothing appears, make sure your loadout has a magazine loaded into its gun.
 ADD_RIFLE_GRENADES_TO_CRATE(small,ftl,4);  // Grenade launcher rounds work too!
-
-ADD_ITEMS_TO_CRATE(small,"30Rnd_65x39_caseless_mag_Tracer",10); // The Rifleman has normal bullets loaded into his gun.  To add Tracer rounds into this box, we can use this command.
-ADD_ITEMS_TO_CRATE(small,"100Rnd_65x39_caseless_mag_Tracer",3);
+ADD_ITEMS_TO_CRATE(small,"MRAWS_HEAT55_F",2);
 
 ADD_ITEMS_TO_CRATE(small,"3Rnd_Smoke_Grenade_shell",4); // The FTL has explosive grenades loaded by default, to add smoke rounds we can use this command.
-ADD_ITEMS_TO_CRATE(small,"3Rnd_SmokeRed_Grenade_shell",2); // If your gearscript uses different ammo, you can select it in ACE Arsenal and use CTRL+C to get the right Classname.
-ADD_ITEMS_TO_CRATE(small,"3Rnd_SmokeBlue_Grenade_shell",2); // Then you can use CTRL+V to paste into the quote-marks here.
+ADD_ITEMS_TO_CRATE(small,"3Rnd_SmokePurple_Grenade_shell",4); // If your gearscript uses different ammo, you can select it in ACE Arsenal and use CTRL+C to get the right Classname.
 
-ADD_ITEMS_TO_CRATE(small,"SmokeShellRed",2);
-ADD_ITEMS_TO_CRATE(small,"SmokeShellBlue",2);
+ADD_ITEMS_TO_CRATE(small,"SmokeShellPurple",4);
 ADD_ITEMS_TO_CRATE(small,"SmokeShell",6);
 
-ADD_ITEMS_TO_CRATE(small,"HandGrenade",6);
+ADD_ITEMS_TO_CRATE(small,"MiniGrenade",6);
 ADD_ITEMS_TO_CRATE(small,"ACE_SpareBarrel",1);  // to go into battle with a machinegun and not get it red-hot is blasphemous.
 
 ADD_BANDAGES_TO_CRATE(small,40); // This will automatically add a mixture of different bandages into the crate.
@@ -288,19 +280,15 @@ ADD_RIFLE_AMMO_TO_CRATE(med,rif,60);
 ADD_RIFLE_AMMO_TO_CRATE(med,ar,15);
 ADD_RIFLE_AMMO_TO_CRATE(med,crew,4);
 ADD_RIFLE_GRENADES_TO_CRATE(med,ftl,10);
-
-ADD_ITEMS_TO_CRATE(med,"30Rnd_65x39_caseless_mag_Tracer",20);
-ADD_ITEMS_TO_CRATE(med,"100Rnd_65x39_caseless_mag_Tracer",10);
+ADD_ITEMS_TO_CRATE(small,"MRAWS_HEAT55_F",4);
 
 ADD_ITEMS_TO_CRATE(med,"3Rnd_Smoke_Grenade_shell",10);
-ADD_ITEMS_TO_CRATE(med,"3Rnd_SmokeRed_Grenade_shell",5);
-ADD_ITEMS_TO_CRATE(med,"3Rnd_SmokeBlue_Grenade_shell",5);
+ADD_ITEMS_TO_CRATE(med,"3Rnd_SmokePurple_Grenade_shell",10);
 
-ADD_ITEMS_TO_CRATE(med,"SmokeShellRed",6);
-ADD_ITEMS_TO_CRATE(med,"SmokeShellBlue",6);
+ADD_ITEMS_TO_CRATE(med,"SmokeShellPurple",12);
 ADD_ITEMS_TO_CRATE(med,"SmokeShell",15);
 
-ADD_ITEMS_TO_CRATE(med,"HandGrenade",15);
+ADD_ITEMS_TO_CRATE(med,"MiniGrenade",15);
 ADD_ITEMS_TO_CRATE(med,"ACE_SpareBarrel",2);
 
 ADD_BANDAGES_TO_CRATE(med,80);
