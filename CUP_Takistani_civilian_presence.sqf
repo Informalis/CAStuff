@@ -21,6 +21,6 @@ _this setUnitLoadout selectRandom [
     "CUP_C_TK_Man_07_Coat",
     "CUP_C_TK_Man_07_Waist",
     "CUP_C_TK_Man_08",
-    "CUP_C_TK_Man_08_Coat",
+    "CUP_C_TK_Man_08_Jack",
     "CUP_C_TK_Man_08_Waist"
 ];
